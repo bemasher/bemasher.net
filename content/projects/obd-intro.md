@@ -1,7 +1,6 @@
 +++
 title = 'Trip Logger'
-date = 2024-03-09T12:06:00-07:00
-draft = false
+date = 2024-03-09T00:06:00-07:00
 tags = ['Trip Logger']
 +++
 
