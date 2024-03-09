@@ -1,0 +1,9 @@
+name = 'Plain'
+license = 'MIT'
+licenselink = 'https://github.com/owner/repo/LICENSE'
+description = 'A plain, no frills theme.'
+
+# If the theme has a single author
+[author]
+  name = 'bemasher'
+  homepage = 'bemasher.net'

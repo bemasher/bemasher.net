@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trip Logger on bemasher.net</title>
+    <link>http://localhost:1313/tags/trip-logger/</link>
+    <description>Recent content in Trip Logger on bemasher.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Mar 2024 18:08:15 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/trip-logger/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Trip Logger</title>
+      <link>http://localhost:1313/projects/obd-intro/</link>
+      <pubDate>Thu, 07 Mar 2024 18:08:15 -0700</pubDate>
+      <guid>http://localhost:1313/projects/obd-intro/</guid>
+      <description>I like data, especially discovering interesting patterns in it. My car, a 2019 Honda Civic Hatchback produces an awful lot of it without even having to ask for it. This project is about collecting that data and having a look at it.&#xA;Vehicles manufactured after 1996 in the United States are required to implement OBD-II, an on-board diagnostics reporting capability.1 Luckily the standard requires a specific connector, placement, pinout, and permits a set of signaling protocols.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,13 @@
+baseURL = 'https://bemasher.net/'
+languageCode = 'en-us'
+title = 'bemasher.net'
+theme = 'plain'
+
+[taxonomies]
+  tag = 'tags'
+
+[menus]
+[[menus.main]]
+  name = 'Home'
+  pageRef = '/'
+  weight = 10
