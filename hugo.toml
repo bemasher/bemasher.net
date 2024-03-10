@@ -4,8 +4,8 @@ title = 'bemasher.net'
 theme = 'plain'
 
 [taxonomies]
-  project = 'projects'
-  tag = 'tags'
+    tag = 'tags'
+    project = 'projects'
 
 [menus]
 [[menus.main]]
