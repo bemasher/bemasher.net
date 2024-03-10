@@ -5,8 +5,6 @@ projects = ['Trip Logger']
 tags = ['Raspberry Pi','OBD-II','CAN','GPS']
 +++
 
-I like data, especially discovering interesting patterns in it. My car, a 2019 Honda Civic Hatchback produces an awful lot of it without even having to ask for it. This project is about collecting that data and having a look at it.
-
 Vehicles manufactured after 1996 in the United States are required to implement OBD-II, an on-board diagnostics reporting capability.[^OBD] Luckily the standard requires a specific connector, placement, pinout, and permits a set of signaling protocols.
 
 My Civic implements a few of these protocols, but the one of interest is Controller Area Network (CAN). One way to interact with your vehicle is using an ELM327-based[^ELM] device. These affordable devices abstract away the complexity of OBD-II behind a device with an AT command set.[^AT]
