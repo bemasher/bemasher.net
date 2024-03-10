@@ -1,7 +1,8 @@
 +++
-title = 'Trip Logger'
+title = 'Introduction'
 date = 2024-03-09T00:06:00-07:00
-tags = ['Trip Logger']
+projects = ['Trip Logger']
+tags = ['Raspberry Pi','OBD-II','CAN','GPS']
 +++
 
 I like data, especially discovering interesting patterns in it. My car, a 2019 Honda Civic Hatchback produces an awful lot of it without even having to ask for it. This project is about collecting that data and having a look at it.
