@@ -123,3 +123,7 @@ nav > a {
 nav > a:first-of-type {
   margin-left: 0;
 }
+
+#footer {
+  font-size: 9pt;
+}

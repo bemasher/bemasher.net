@@ -1,1 +1,1 @@
-<p>Copyright {{ now.Year }}. All rights reserved.</p>
+<p id="footer">Copyright {{ now.Year }}. All rights reserved. {{.GitInfo.CommitDate.Format "2006-01-02"}} &mdash; {{.GitInfo.AbbreviatedHash}}</p>

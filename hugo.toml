@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = 'bemasher.net'
 theme = 'plain'
 
+enableGitInfo = true
+
 [taxonomies]
   tag = 'tags'
 
