@@ -62,6 +62,7 @@ body {
   line-height: 1.5;
   margin: 1rem auto;
   max-width: 768px;
+  padding: 0 1rem;
 
   text-align: justify;
 }
@@ -69,6 +70,10 @@ body {
 h1 {
   color: #e9e2d7;
   margin: 0.5rem 0;
+}
+
+h1, h2 {
+  text-align: left;
 }
 
 header {
