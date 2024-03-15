@@ -27,12 +27,12 @@ For automatic boot and shutdown, the Pi will boot whenever power is present, and
 To power the Pi, there are a few options:
 
  * USB, there's a port in the center console that supplies enough current to run the Pi. This port is powered when the engine is running, or in accessory mode. This provides automatic boot at engine start, and automatic (unsafe) shutdown at engine stop.
- * 12V accessory port, this port only provides power when the engine is running.
+ * 12V accessory port, this port only provides power when the engine is running. Same pros and cons as USB.
  * OBD-II provides a direct connection to the battery, so I'll need a way to handle boot and shutdown on the Pi.
 
 Powering the Pi directly from the battery through the OBD-II port makes the most sense. This requires a DC-DC converter to get 5V from the 12V-ish battery. I've already got some cheap DC-DC buck converter modules[^LM2596] rated for the necessary current.
 
-A power button can be emulated using `dtoverlay=gpio-shutdown` which triggers when a specified GPIO pin is driven low. One of the two push-buttons on the PiCAN 2 can be used for this, and it allows triggering both boot and safe shutdown. I'll have to measure how much power the device and peripherals draw when everything is shutdown or asleep.
+A power button can be emulated using `dtoverlay=gpio-shutdown` which triggers when a specified GPIO pin is driven low. One of the two push-buttons on the PiCAN 2 can be used for this, and works for both shutdown and boot. I'll have to measure how much power the device and peripherals draw when everything is shutdown or asleep.
 
 I've not yet determined how I'll handle automatic boot, for now I think I'll manually start the Pi with the push button. Automatic shutdown is easy: everything on the CAN bus stops transmitting shortly after the engine stops, so use a timeout to trigger shutdown after the last message is received.
 
@@ -46,9 +46,9 @@ Be careful when setting up this board for first use, a triplet of solder jumpers
 
 # GPS
 
-The vehicle doesn't know where it is in space and time, and GPS is a relatively easy way to get this data.
+The vehicle doesn't know when or where it is, and GPS is a relatively easy way to get this data.
 
-The Pi doesn't have a real-time clock, so when it first boots, it's not oriented to time. GPS is effectively a collection of very accurate clocks, so that problem is solved.
+The Pi doesn't have a real-time clock, so when it first boots without a network connection, it's not oriented to time. GPS is effectively a collection of very accurate clocks, so that problem is solved.
 
 There are a few benefits to the device always having power: GPS time to first fix from cold boot is around 30 seconds, but if the GPS always has power and is instead put to sleep, TTFF is around 1 second, so the Pi has current time sooner.
 
