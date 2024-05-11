@@ -1,7 +1,6 @@
 +++
 title = 'Introduction'
 date = 2024-03-09T00:06:00-07:00
-projects = ['Trip Logger']
 tags = ['Raspberry Pi','OBD-II','CAN','GPS']
 +++
 
@@ -20,7 +19,7 @@ The design requirements are as follows:
  * Log both CAN and GPS data.
  * Automatic (safe) shutdown.
 
-# Power
+## Power
 
 For automatic boot and shutdown, the Pi will boot whenever power is present, and shutdown (unsafely) when power is absent.
 
@@ -36,7 +35,7 @@ A power button can be emulated using `dtoverlay=gpio-shutdown` which triggers wh
 
 I've not yet determined how I'll handle automatic boot, for now I think I'll manually start the Pi with the push button. Automatic shutdown is easy: everything on the CAN bus stops transmitting shortly after the engine stops, so use a timeout to trigger shutdown after the last message is received.
 
-# CAN Interface
+## CAN Interface
 
 There are quite a few accessory boards for platforms like the Raspberry Pi that marry a CAN controller,[^MCP2515] and transceiver[^MCP2551] to the pi. For this project, the most suitable for development I found is the PiCAN 2.[^PICAN2] This board includes both screw terminals and a DB-9 connector for connecting to the bus.
 
@@ -44,7 +43,7 @@ There are also some unpopulated footprints on the board for a switch-mode power 
 
 Be careful when setting up this board for first use, a triplet of solder jumpers need to be set for the specific cable you'll use. I purchased an OBD-II to DB-9 cable from Adafruit.[^CABLE] It's pinout corresponds to the "CAN Cable" instead of the "OBDII Cable" described in the user guide.
 
-# GPS
+## GPS
 
 The vehicle doesn't know when or where it is, and GPS is a relatively easy way to get this data.
 
@@ -54,7 +53,7 @@ There are a few benefits to the device always having power: GPS time to first fi
 
 For this application, I already have a u-blox MAX-M8Q module[^GPS] from Uputronics. I may replace this with the GPS/RTC hat[^HAT] from Uputronics to simplify the assembled package.
 
-# That's all for now.
+## That's all for now.
 
 Tune in at some indeterminate future time for some software.
 

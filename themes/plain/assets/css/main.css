@@ -91,17 +91,40 @@ a {
   text-decoration: none;
 }
 
+p > img {
+  display: block;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
 code {
   font-family: 'Noto Sans Mono';
   font-size: 10pt;
   /* border: 1px solid white; */
-  background-color: #454545;
+  background-color: #303030;
   border-radius: 3px;
   padding: 0pt 2pt;
 }
 
+pre > code {
+  display: block;
+  white-space: pre-wrap;
+  padding: 0.5rem 0.75rem;
+}
+
 sup {
   line-height: 0;
+}
+
+blockquote {
+  margin: 0 2rem;
+  border-left: 2px solid white;
+  padding: 0 0.5rem;
+  background-color: #303030;
+}
+
+blockquote > p {
+  padding: 0.125rem 0;
 }
 
 li {

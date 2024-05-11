@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://bemasher.net/sitemap.xml
