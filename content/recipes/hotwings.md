@@ -9,6 +9,10 @@ Crispy hot wings, using methods from two internet folks:
 
 <!--more-->
 
+<div class="two-col">
+
+<div style="break-inside: avoid;">
+
 ## Ingredients
 
 ### Wings
@@ -16,11 +20,15 @@ Crispy hot wings, using methods from two internet folks:
 * 1 tsp salt
 * 1 tsp corn starch
 * 1 tsp baking powder
+* 1 tbsp neutral oil
 
 ### Sauce
 * 4 tbsp butter
 * 2-3 cloves garlic minced fine
 * 4 tbsp hot sauce
+
+</div>
+<div style="break-inside: avoid;">
 
 ## Directions
 ### Prep
@@ -30,6 +38,7 @@ Crispy hot wings, using methods from two internet folks:
 * Refrigerate uncovered 4 hours to overnight.
 
 ### Air Fry
+* Toss wings in oil or spray to coat.
 * 250&deg;F 20 min
 * Cool 15 minutes
 * 400&deg;F 8-10 min
@@ -37,3 +46,7 @@ Crispy hot wings, using methods from two internet folks:
 ### Sauce
 * Mix sauce and melted butter.
 * Toss wings to coat.
+
+<div>
+
+</div>

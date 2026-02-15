@@ -6,6 +6,9 @@ theme = 'plain'
 enableRobotsTXT = true
 enableGitInfo = true
 
+[markup.goldmark.renderer]
+  unsafe= true
+
 [taxonomies]
   tag = 'tags'
 
