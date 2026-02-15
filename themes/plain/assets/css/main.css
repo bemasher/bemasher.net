@@ -36,15 +36,16 @@
 
 /* noto-sans-mono-regular - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: 'Noto Sans Mono';
   font-style: normal;
   font-weight: 400;
   src: url('../fonts/noto-sans-mono-v30-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
 /* noto-sans-mono-700 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: 'Noto Sans Mono';
   font-style: normal;
   font-weight: 700;
@@ -72,8 +73,9 @@ h1 {
   margin: 0.5rem 0;
 }
 
-h1, h2 {
+h1, h2, h3 {
   text-align: left;
+  margin-bottom: 0.375rem;
 }
 
 header {
@@ -100,7 +102,6 @@ p > img {
 code {
   font-family: 'Noto Sans Mono';
   font-size: 10pt;
-  /* border: 1px solid white; */
   background-color: #303030;
   border-radius: 3px;
   padding: 0pt 2pt;
