@@ -17,3 +17,8 @@ enableGitInfo = true
   name = 'Home'
   pageRef = '/'
   weight = 10
+
+[[menus.main]]
+  name = 'Recipes'
+  pageRef = '/recipes/'
+  weight = 10

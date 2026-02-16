@@ -1,2 +1,8 @@
-<h1>{{ site.Title }}</h1>
+<div id="breadcrumbs" style="float:right;">
+    {{- range .Ancestors.Reverse }}
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a> &raquo;
+    {{- end }}
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+</div>
+
 {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
