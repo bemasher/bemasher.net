@@ -179,6 +179,16 @@ time {
   text-align: left;
 }
 
+.two-col>div {
+  break-inside: avoid-column;
+}
+
+@media only screen and (max-width: 479px) {
+  .two-col {
+    column-count: unset;
+  }
+}
+
 @media print {
   html {
     background-color: unset;

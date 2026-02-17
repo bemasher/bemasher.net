@@ -10,8 +10,7 @@ Crispy hot wings, using methods from two internet folks:
 <!--more-->
 
 <div class="two-col">
-
-<div style="break-inside: avoid;">
+<div>
 
 ## Ingredients
 
@@ -28,7 +27,7 @@ Crispy hot wings, using methods from two internet folks:
 * 4 tbsp hot sauce
 
 </div>
-<div style="break-inside: avoid;">
+<div>
 
 ## Directions
 ### Prep
@@ -48,5 +47,4 @@ Crispy hot wings, using methods from two internet folks:
 * Toss wings to coat.
 
 <div>
-
 </div>
