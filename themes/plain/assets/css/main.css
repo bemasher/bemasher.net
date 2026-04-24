@@ -108,6 +108,10 @@ p>img {
   margin: 0 auto;
 }
 
+th, td {
+  padding: 0 0.5rem;
+}
+
 code {
   font-family: 'Noto Sans Mono';
   font-size: 10pt;
@@ -177,6 +181,7 @@ time {
   column-count: 2;
   column-gap: 18pt;
   text-align: left;
+  margin-bottom: 12pt;
 }
 
 .two-col>div {
