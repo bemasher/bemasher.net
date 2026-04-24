@@ -165,6 +165,10 @@ time {
   font-style: italic;
 }
 
+th, td {
+  padding: 0 6pt;
+}
+
 .post-date {
   margin-bottom: 6pt;
 }
@@ -177,6 +181,7 @@ time {
   column-count: 2;
   column-gap: 18pt;
   text-align: left;
+  margin-bottom: 12pt;
 }
 
 .two-col>div {
