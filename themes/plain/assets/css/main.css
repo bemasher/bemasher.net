@@ -91,6 +91,7 @@ header {
 
 footer {
   border-top: 2px solid #e9e2d7;
+  margin-top: 12pt;
 }
 
 footer>p {
@@ -127,14 +128,15 @@ sup {
 }
 
 blockquote {
-  margin: 0 2rem;
-  border-left: 2px solid white;
-  padding: 0 0.5rem;
+  margin: 6pt 0;
+  padding: 6pt;
+  border-left: 3pt solid white;
   background-color: #303030;
 }
 
 blockquote>p {
-  padding: 0.125rem 0;
+  margin: 0;
+  padding: 0;
 }
 
 ul {
@@ -165,7 +167,8 @@ time {
   font-style: italic;
 }
 
-th, td {
+th,
+td {
   padding: 0 6pt;
 }
 
@@ -218,5 +221,11 @@ th, td {
 
   footer {
     border-top: 2px solid black;
+  }
+
+  blockquote {
+    background-color: unset;
+    border: 1pt solid black;
+    border-left: 3pt solid black;
   }
 }
