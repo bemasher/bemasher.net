@@ -1,4 +1,5 @@
 +++
+slug = 'tuna-salad'
 title = 'Tuna Salad'
 date = 2026-06-07T00:00:00-07:00
 +++
