@@ -1,7 +1,8 @@
 baseURL = 'https://bemasher.net/'
-languageCode = 'en-us'
 title = 'bemasher.net'
 theme = 'plain'
+
+locale = 'en-us'
 
 enableRobotsTXT = true
 enableGitInfo = true
